@@ -104,6 +104,29 @@ The algorithm uses a greedy approach that maximizes image improvement with each 
 - Higher thread counts produce more detailed results but require more processing time
 - The application displays progress updates and statistics during generation
 
+## Results
+
+The Thread Art Generator produces impressive transformations from ordinary photographs to intricate thread art. Below are actual results from the application.
+
+<div align="center">
+  <img src="results/Screenshot 2025-04-18 223611.png" width="700px" alt="Thread Art Result 1"/>
+  <p><em>Result with 1000 threads - Original image and thread art side by side</em></p>
+  
+  <img src="results/Screenshot 2025-04-18 224617.png" width="700px" alt="Thread Art Result 2"/>
+  <p><em>Result with 2000 threads - Enhanced detail with more threads</em></p>
+  
+  <img src="results/Screenshot 2025-04-18 225359.png" width="700px" alt="Thread Art Result 3"/>
+  <p><em>Result with 3000 threads - Maximum detail and definition</em></p>
+</div>
+
+Each image above shows the original photograph on the left and the corresponding thread art creation on the right. The application automatically displays these side-by-side comparisons so users can appreciate the transformation.
+
+Notice how the thread art effectively captures the essence of the subject using only straight lines between points on a circle. The algorithm strategically places each thread to build up areas of varying darkness, creating a recognizable image that maintains the key characteristics of the original.
+
+As demonstrated in the progression from 1000 to 3000 threads, increasing the thread count produces more refined results with greater detail and tonal variation. Even complex subjects with subtle gradients can be effectively represented through this technique.
+
+These results showcase the Thread Art Generator's ability to transform portraits into unique artistic representations that combine mathematical precision with aesthetic appeal.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
