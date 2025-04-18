@@ -1,10 +1,7 @@
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
 from skimage.draw import line, circle_perimeter, line_aa
 from skimage.transform import resize
-from skimage import io
 from math import atan2
 import time
 import cv2
@@ -12,7 +9,6 @@ from PIL import Image, ImageOps
 import io as python_io
 from streamlit_cropper import st_cropper
 import base64
-from streamlit_image_select import image_select
 
 st.set_page_config(
     page_title="String Art Generator",
