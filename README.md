@@ -24,7 +24,7 @@ The Thread Art Generator is an interactive application that creates string art s
 
 ```bash
 # Clone the repository
-[https://github.com/amanrjgit/Thread-Art.git](https://github.com/amanrjgit/Thread-Art.git)
+https://github.com/amanrjgit/Thread-Art.git
 cd thread-art-generator
 
 # Create and activate a virtual environment (optional but recommended)
